@@ -4,14 +4,14 @@ import customtkinter as ctk
 from datetime import datetime
 
 # Local imports from your own modules:
-from .data_utils import (
+from data_utils import (
     read_csv_dicts,
     overwrite_csv_dicts,
     ensure_csv_headers,
     parse_packaging_input,
     carry_over_data_for_tab
 )
-from .month_status import is_month_archived
+from month_status import is_month_archived
 
 # CSV file references
 WOO_SKU_CSV   = "woo_sku.csv"

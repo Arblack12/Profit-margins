@@ -1,4 +1,4 @@
-from .data_utils import ensure_csv_headers, read_csv_dicts, overwrite_csv_dicts
+from data_utils import ensure_csv_headers, read_csv_dicts, overwrite_csv_dicts
 
 MONTH_STATUS_CSV = "month_status.csv"
 

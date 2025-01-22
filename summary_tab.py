@@ -5,8 +5,8 @@ matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
-from .data_utils import read_csv_dicts
-from .month_status import is_month_archived
+from data_utils import read_csv_dicts
+from month_status import is_month_archived
 
 
 EBAY_SKU_CSV = "ebay_sku.csv"

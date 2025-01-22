@@ -1,6 +1,6 @@
 import customtkinter as ctk
-from .data_utils import ensure_csv_headers
-from .month_status import ensure_month_status_csv
+from data_utils import ensure_csv_headers
+from month_status import ensure_month_status_csv
 
 # CSV constants
 EBAY_SKU_CSV = "ebay_sku.csv"
@@ -11,11 +11,11 @@ B2B_CSV      = "b2b_data.csv"
 COSTS_CSV    = "costs_data.csv"
 
 # Import tab classes
-from .ebay_tab import EbayTab
-from .woo_tab import WooTab
-from .b2b_tab import B2BTab
-from .costs_tab import CostsTab
-from .summary_tab import SummaryTab
+from ebay_tab import EbayTab
+from woo_tab import WooTab
+from b2b_tab import B2BTab
+from costs_tab import CostsTab
+from summary_tab import SummaryTab
 
 class ProfitTrackerApp(ctk.CTk):
     def __init__(self):

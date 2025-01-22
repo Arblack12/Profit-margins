@@ -4,8 +4,8 @@ import customtkinter as ctk
 from datetime import datetime
 
 # Local imports from your own modules:
-from .data_utils import read_csv_dicts, overwrite_csv_dicts
-from .month_status import is_month_archived
+from data_utils import read_csv_dicts, overwrite_csv_dicts
+from month_status import is_month_archived
 
 COSTS_CSV = "costs_data.csv"
 
